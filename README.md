@@ -1,4 +1,4 @@
-# </> LintForge (MERN + Vite + Shadcn)
+# </> LintForge (MERN + React + Vite + Shadcn)
 
 [![License](https://img.shields.io/badge/license-Private-blue)](https://github.com/DevJaem31/LintForge)  
 [![Node.js](https://img.shields.io/badge/Node-v18-green)](https://nodejs.org/)  
@@ -7,7 +7,7 @@
 
 **AI-Guided Code Analysis Tool**
 
-LintForge is a web application designed to help developers **analyze and improve their code**. It provides **AI-guided suggestions**, code quality scoring, and best practice recommendations in a **modern, developer-friendly interface**.
+LintForge is a web application that helps developers **analyze and improve their code**. It provides **AI-guided suggestions**, code quality scoring, and best practice recommendations in a **modern React interface** using Vite and Shadcn UI components.
 
 ---
 
@@ -19,8 +19,8 @@ LintForge is a web application designed to help developers **analyze and improve
 - Registered users: unlimited attempts with login
 - Integrated clean coding resources
 - Secure — no `eval()` on the backend
-- Full-stack MERN architecture with Vite + React + Shadcn UI
-- Optional AI integration with OpenAI API for future updates
+- Full-stack MERN architecture with React + Vite + Shadcn UI
+- Optional AI integration via OpenAI API for future updates
 
 ---
 
@@ -41,7 +41,7 @@ _Clean coding resources section._
 
 ## Tech Stack
 
-- **Frontend:** Vite, React 18, Shadcn UI, TailwindCSS
+- **Frontend:** React 18, Vite, Shadcn UI, TailwindCSS
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
 - **Authentication:** Session-based or JWT
@@ -84,6 +84,6 @@ cd ../client
 npm install
 
 # Run development environment
-# This runs both backend and Vite frontend concurrently
+# Starts Vite React frontend and Express backend concurrently
 npm run dev
 ```
