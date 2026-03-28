@@ -1,65 +1,89 @@
-# </> LintForge
+# </> LintForge (MERN + Vite + Shadcn)
 
-[![License](https://img.shields.io/badge/license-Private-blue)](https://github.com/DevJaem31/LintForge)
-[![Node.js](https://img.shields.io/badge/Node-v18-green)](https://nodejs.org/)
-[![JavaScript](https://img.shields.io/badge/JS-ES6-yellow)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License](https://img.shields.io/badge/license-Private-blue)](https://github.com/DevJaem31/LintForge)  
+[![Node.js](https://img.shields.io/badge/Node-v18-green)](https://nodejs.org/)  
+[![React](https://img.shields.io/badge/React-v18.2-blue)](https://reactjs.org/)  
+[![MongoDB](https://img.shields.io/badge/MongoDB-v7.0-green)](https://www.mongodb.com/)
 
 **AI-Guided Code Analysis Tool**
 
-LintForge is a web application that helps developers analyze and improve their code. It provides **AI-guided suggestions**, code quality scoring, and best practice recommendations while maintaining a **developer-friendly terminal-style interface**.
+LintForge is a web application designed to help developers **analyze and improve their code**. It provides **AI-guided suggestions**, code quality scoring, and best practice recommendations in a **modern, developer-friendly interface**.
 
 ---
 
 ## Features
 
 - AI-guided code analysis
-- Real-time feedback in a terminal-style interface
-- Limited guest attempts (5 per session)
-- Login-enabled users have unlimited attempts
-- Free clean coding resources included
+- Terminal-style interface for real-time feedback
+- Guest users: limited 5 analysis attempts per session
+- Registered users: unlimited attempts with login
+- Integrated clean coding resources
 - Secure — no `eval()` on the backend
-- Vanilla JS, HTML, CSS frontend
-- Node.js + Express backend with MongoDB
+- Full-stack MERN architecture with Vite + React + Shadcn UI
+- Optional AI integration with OpenAI API for future updates
 
 ---
 
 ## Screenshots
 
-![Login Page]
+![Login Page]  
 _Login screen for registered users._
 
-![Code Analyzer]
+![Code Analyzer]  
 _Main code analysis workspace._
 
-![Resources]
+![Resources]  
 _Clean coding resources section._
 
-> Screenshots are placeholders; replace with real images when available.
+> Screenshots are placeholders; replace with real images/screenshots when available.
 
 ---
 
 ## Tech Stack
 
-- **Frontend:** Vanilla JS, HTML5, CSS3
+- **Frontend:** Vite, React 18, Shadcn UI, TailwindCSS
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
-- **Authentication:** Session-based / JWT
-- **Optional AI Integration:** Custom JS rules + future OpenAI API support
+- **Authentication:** Session-based or JWT
+- **Optional AI:** Custom JS rules / OpenAI API support
 
 ---
 
 ## Usage
 
-- **Guest Users:** Limited 5 analysis attempts per session
-- **Registered Users:** Unlimited attempts, login required
-  Paste your code → Click “Forge Code” → See analysis results in the terminal panel
+### Guest Users
 
-## License
+1. Open the app
+2. Paste your code
+3. Click **Forge Code**
+4. See AI-guided analysis in the terminal panel
+   > Limited to 5 attempts per session
 
-- Private / Internal Use Only
-- This project is not open for public collaboration.
+### Registered Users
 
-## Notes
+1. Sign up / Log in
+2. Paste your code
+3. Click **Forge Code**
+4. Get unlimited AI-guided code analysis
 
-Future updates may include real AI code analysis via OpenAI API
-Designed for portfolio use and practice in full-stack Vanilla JS + Node.js projects
+---
+
+## Setup / Local Development
+
+```bash
+# Clone the repo
+git clone https://github.com/DevJaem31/LintForge.git
+cd LintForge
+
+# Install backend dependencies
+cd server
+npm install
+
+# Install frontend dependencies
+cd ../client
+npm install
+
+# Run development environment
+# This runs both backend and Vite frontend concurrently
+npm run dev
+```
