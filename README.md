@@ -25,13 +25,13 @@ LintForge is a web application that helps developers analyze and improve their c
 
 ## Screenshots
 
-![Login Page](screenshots/login.png)  
+![Login Page]
 _Login screen for registered users._
 
-![Code Analyzer](screenshots/analyzer.png)  
+![Code Analyzer]
 _Main code analysis workspace._
 
-![Resources](screenshots/resources.png)  
+![Resources]
 _Clean coding resources section._
 
 > Screenshots are placeholders; replace with real images when available.
