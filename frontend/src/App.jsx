@@ -1,10 +1,10 @@
-import React from 'react'
-import MainRoutes from '@/routes/MainRoutes'
-import SideBar from '@/components/static/sidebar'
+import React from "react";
+import MainRoutes from "@/routes/MainRoutes";
+import SideBar from "@/components/static/sidebar";
 
 function App() {
   return (
-    <div className="h-screen w-screen grid grid-cols-12">
+    <div className="h-[calc(100vh-40px)] w-[calc(100vw-80px)] grid grid-cols-12">
       <div className="col-span-2">
         <SideBar />
       </div>
@@ -12,7 +12,7 @@ function App() {
         <MainRoutes />
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
